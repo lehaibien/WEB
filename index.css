@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ecf0f1;
+}
+
+/* .test {
+  height: 1000px;
+} */
+
+.theme-btn {
+  height: 5vh;
+  width: auto;
+  font-weight: 650;
+  position: sticky;
+  top: 0;
+}
+
+/* MENU BELOW */
+
+header {
+  height: 6vh;
+  width: auto;
+}
+
+nav {
+  height: 6vh;
+  width: 100%;
+  background: #34495e;
+  display: flex;
+}
+
+nav p {
+  line-height: 6vh;
+  flex: 1;
+  color: #ecf0f1;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.menu {
+  flex: 4;
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  line-height: 6vh;
+  flex: 1;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+/* SECTION GO HERE */
+
+section {
+  margin-top: 1vh;
+  position: relative;
+}
+
+/* CARD GO HERE */
+
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: #3498db;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ecf0f1;
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ecf0f1;
+}
+
+.card a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: #ecf0f1;
+  background: #34495e;
+  height: 40px;
+  width: 50%;
+  margin: 10px auto 5px;
+  line-height: 40px;
+}
+
+/* FOOTER GO HERE */
+
+footer {
+  background: #34495e;
+  width: 100%;
+  height: 4vh;
+  line-height: 4vh;
+  display: flex;
+}
+
+footer p {
+  color: white;
+  flex: 1;
+}

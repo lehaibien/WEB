@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="GetTheme()">
     
     <header>
         <nav>
             <p>Solid Text</p>
-            <ul>
+            <ul class="menu">
                 <li><a href="">Home</a></li>
                 <li><a href="">Forum</a></li>
                 <li><a href="">Contact</a></li>
@@ -18,33 +19,39 @@
             </ul>
         </nav>
     </header>
+    <button id="theme-btn">Click To Change Theme</button>
+    <div class="test"></div>
 
     <main>
 
-        <section>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
-        <section>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
-        <section>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
-
+        <div class="card-holder">
+            <div class="card">
+                <h1>HTML Course</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias, voluptatum nostrum dolorum iusto rem hic beatae enim voluptatem, maxime vitae similique animi, porro earum iste unde accusamus perferendis! Odit!</p>
+                <a href="#">Click Here To Learn</a>
+            </div>
+            <div class="card">
+                <h1>CSS Course</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias, voluptatum nostrum dolorum iusto rem hic beatae enim voluptatem, maxime vitae similique animi, porro earum iste unde accusamus perferendis! Odit!</p>
+                <a href="#">Click Here To Learn</a>
+            </div>
+            <div class="card">
+                <h1>JAVASCRIPT Course</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias, voluptatum nostrum dolorum iusto rem hic beatae enim voluptatem, maxime vitae similique animi, porro earum iste unde accusamus perferendis! Odit!</p>
+                <a href="#">Click Here To Learn</a>
+            </div>
+        </div>
+    
     </main>
 
     <footer>
 
+        <p>Zone Copyright &copy</p>
+        <p>Thanks for using our services</p>
+
     </footer>
+
+    <script src="index.js"></script>
 
 </body>
 </html>
